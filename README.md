@@ -20,6 +20,8 @@ Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
 TODO
 
 # Run it
-$ cd /path/to/homebridge-aquara
-$ DEBUG=* homebridge -D -P .
+
+    $ cd /path/to/homebridge-aquara
+    $ DEBUG=* homebridge -D -P .
+
 
