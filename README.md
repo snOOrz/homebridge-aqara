@@ -18,7 +18,7 @@ Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
 ### Configuration
 1. Open Aquara gateway's settings, enable local network protocol.
-2. Put gateway's MAC address and password to ~/homebridge/config.json, like below.
+2. Put gateway's MAC address (lower case without colon) and password to ~/homebridge/config.json. If you have more than one gateways, fill them in right order, like below.
 
 
         {
