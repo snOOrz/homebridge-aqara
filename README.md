@@ -21,14 +21,14 @@ Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
 2. Put gateway's MAC address and password to ~/homebridge/config.json, like below.
 
 
-    {
-        "platforms": [
         {
-            "platform": "AquaraPlatform",
-            "sid": ["6409802da3b3", "f0b4299a5b2b", "f0b4299a77dd"],
-            "password": ["02i44k56zrgg578b", "g250s2vtne8q9qhv", "syu3oasva3uqd5qd"]
-        }]
-    }
+        "platforms": [
+            {
+                "platform": "AquaraPlatform",
+                "sid": ["6409802da3b3", "f0b4299a5b2b", "f0b4299a77dd"],
+                "password": ["02i44k56zrgg578b", "g250s2vtne8q9qhv", "syu3oasva3uqd5qd"]
+            }]
+        }
 
 ### Run it
 
