@@ -11,7 +11,7 @@
     "url": "git://https://github.com/snOOrz/homebridge-aquara"
   },
   "bugs": {
-    "url": "http://github.com/example/homebridge-aquara/issues"
+    "url": "https://github.com/snOOrz/homebridge-aquara/issues"
   },
   "engines": {
     "node": ">=0.12.0",
