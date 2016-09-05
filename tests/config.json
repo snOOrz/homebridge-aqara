@@ -1,0 +1,14 @@
+{
+        "bridge": {
+                "name": "Homebridge",
+                "username": "CC:22:3D:E3:CE:30",
+                "port": 51826,
+                "pin": "987-65-432"
+        },
+        "platforms": [
+        {
+                "platform": "AquaraPlatform",
+                "sid": ["6409802da3b3", "f0b4299a5b2b", "f0b4299a77dd"],
+                "password": ["02i44k56zrgg578b", "g250s2vtne8q9qhv", "syu3oasva3uqd5qd"]
+        }]
+}
