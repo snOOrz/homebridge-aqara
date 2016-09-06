@@ -7,6 +7,7 @@ var sidToAddress = {};
 var sidToPort = {};
 
 serverSocket.on('message', function(msg, rinfo){
+  console.log('recv %s(%d bytes) from client %s:%d\n', msg, msg.length, rinfo.address, rinfo.port);
   var json;
   try {
       json = JSON.parse(msg);
