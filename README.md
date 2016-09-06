@@ -1,7 +1,7 @@
 # homebridge-aquara
 Aquara plugin for [HomeBridge](https://github.com/nfarina/homebridge)
 
-This repository contains the Aquara plugin for homebridge. 
+This repository contains the Aquara plugin for homebridge.
 
 Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
@@ -31,8 +31,10 @@ Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
         }
 
 ### Run it
-
+1. From source code
     $ cd /path/to/homebridge-aquara
     $ DEBUG=* homebridge -D -P .
 
-
+2. As homebridge plugin
+    $ npm install -g homebridge-aquara
+    $ homebridge
