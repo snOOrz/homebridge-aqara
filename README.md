@@ -22,7 +22,7 @@ Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
 
         {
-        "platforms": [
+            "platforms": [
             {
                 "platform": "AquaraPlatform",
                 "sid": ["6409802da3b3", "f0b4299a5b2b", "f0b4299a77dd"],
@@ -32,9 +32,13 @@ Aquara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
 ### Run it
 1. From source code
-    $ cd /path/to/homebridge-aquara
-    $ DEBUG=* homebridge -D -P .
+
+
+        $ cd /path/to/homebridge-aquara
+        $ DEBUG=* homebridge -D -P .
 
 2. As homebridge plugin
-    $ npm install -g homebridge-aquara
-    $ homebridge
+
+
+        $ npm install -g homebridge-aquara
+        $ homebridge
