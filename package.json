@@ -1,6 +1,6 @@
 {
   "name": "homebridge-aquara",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Aquara plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
