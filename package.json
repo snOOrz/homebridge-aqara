@@ -1,17 +1,17 @@
 {
-  "name": "homebridge-aquara",
+  "name": "homebridge-aqara",
   "version": "0.0.3",
-  "description": "Aquara plugin for homebridge: https://github.com/nfarina/homebridge",
+  "description": "Aqara plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/snOOrz/homebridge-aquara"
+    "url": "https://github.com/snOOrz/homebridge-aqara"
   },
   "bugs": {
-    "url": "https://github.com/snOOrz/homebridge-aquara/issues"
+    "url": "https://github.com/snOOrz/homebridge-aqara/issues"
   },
   "engines": {
     "node": ">=0.12.0",

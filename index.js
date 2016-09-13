@@ -1,3 +1,3 @@
 module.exports = function(homebridge) {
-  require('./lib/AquaraPlatform')(homebridge);
+  require('./lib/AqaraPlatform')(homebridge);
 }
