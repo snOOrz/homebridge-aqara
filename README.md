@@ -9,6 +9,7 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
 ![](http://i1.mifile.cn/a1/T1bFJ_B4Jv1RXrhCrK!200x200.jpg)
 ![](http://i1.mifile.cn/a1/T1zXZgBQLT1RXrhCrK!200x200.jpg)
 ![](http://i1.mifile.cn/a1/T1xKYgBQhv1R4cSCrK!200x200.png)
+![](http://i1.mifile.cn/a1/T1kZd_BbLv1RXrhCrK!200x200.jpg)
 
 
 ### Installation
