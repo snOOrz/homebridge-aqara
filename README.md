@@ -1,4 +1,6 @@
 # homebridge-aqara
+[![npm version](https://badge.fury.io/js/homebridge-aqara.svg)](https://badge.fury.io/js/homebridge-aqara)
+
 Aqara plugin for [HomeBridge](https://github.com/nfarina/homebridge)
 
 This repository contains the Aqara plugin for homebridge.
