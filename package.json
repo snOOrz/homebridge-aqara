@@ -1,6 +1,6 @@
 {
   "name": "homebridge-aqara",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Aqara plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
