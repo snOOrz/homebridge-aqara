@@ -15,7 +15,7 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
 ### Pre-Requirements
 1. Make sure you have V2 of the gateway. V1 has limited space so can't support this feature.
-2. Update gateway firmware to 1.4.1_141.0141 or later. You can contact babymoney666@github if your firmware is not up to date.
+2. Update gateway firmware to 1.4.1_141.0141 or later. You can contact [@babymoney666](https://github.com/babymoney666) if your firmware is not up to date.
 
 ### Installation
 1. Install HomeBridge, please follow it's [README](https://github.com/nfarina/homebridge/blob/master/README.md). If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi).
