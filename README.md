@@ -23,7 +23,7 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
 3. Download homebridge-aqara to your local folder.
 
 ### Configuration
-1. Open Aqara gateway's settings, enable local network protocol. Please follow the steps in this thread: http://bbs.xiaomi.cn/t-13198850. It's in Chinese so you might need a translator to read it.
+1. Open Aqara gateway's settings, enable [local network protocol](https://github.com/louisZL/lumi-gateway-local-api). Please follow the steps in this thread: http://bbs.xiaomi.cn/t-13198850. It's in Chinese so you might need a translator to read it.
 2. Put gateway's MAC address (lower case without colon) and password to ~/homebridge/config.json. If you have more than one gateways, fill them in right order, like below.
 
 
