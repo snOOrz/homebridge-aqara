@@ -24,7 +24,19 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
 ### Configuration
 1. Open Aqara gateway's settings, enable [local network protocol](https://github.com/louisZL/lumi-gateway-local-api). Please follow the steps in this thread: http://bbs.xiaomi.cn/t-13198850. It's in Chinese so you might need a translator to read it.
-2. Put gateway's MAC address (lower case without colon) and password to ~/homebridge/config.json. If you have more than one gateways, fill them in right order, like below.
+2. To control the devices, put gateway's MAC address (lower case without colon) and password to ~/homebridge/config.json.
+
+
+        {
+            "platforms": [
+            {
+                "platform": "AqaraPlatform",
+                "sid": ["6409802da3b3"],
+                "password": ["02i44k56zrgg578b"]
+            }]
+        }
+
+ If you have more than one gateways, fill them in right order, like below.
 
 
         {
@@ -35,6 +47,12 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
                 "password": ["02i44k56zrgg578b", "g250s2vtne8q9qhv", "syu3oasva3uqd5qd"]
             }]
         }
+
+ If gateway's password is not set or not set right, you will see the following error in homebridge's output.
+ 
+
+        > No password for gateway f0b429cbe4d3, please edit ~/.homebridge/config.json
+  
 
 ### Run it
 1. From source code
