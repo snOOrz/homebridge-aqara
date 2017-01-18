@@ -49,10 +49,22 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
         }
 
  If gateway's password is not set or not set right, you will see the following error in homebridge's output.
- 
+
 
         > No password for gateway f0b429cbe4d3, please edit ~/.homebridge/config.json
-  
+
+ If you like to use Light Bulb type for Light Switch to make grandma Siri happy, like me, you can set the following in the config.
+
+
+        {
+            "platforms": [
+            {
+                "platform": "AqaraPlatform",
+                ...
+                "fakeLightBulbForLightSwitch": true,
+                ...
+            }]
+        }
 
 ### Run it
 1. From source code
