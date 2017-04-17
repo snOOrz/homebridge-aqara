@@ -65,6 +65,20 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
                 ...
             }]
         }
+        
+ If you prefer to see sensor names instead of hex digis as name, add a mapping table to your config.json
+ 
+        {
+            "platforms": [
+            {
+                "platform": "AqaraPlatform",
+                ...
+                "sensor_names": {
+					"74ef":"Kitchen Window"
+                }
+                ...
+            }]
+        }   
 
 ### Run it
 1. From source code
