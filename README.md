@@ -24,7 +24,9 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
 
 ### Configuration
 1. Open Aqara gateway's settings, enable [local network protocol](https://github.com/louisZL/lumi-gateway-local-api). Please follow the steps in this thread: http://bbs.xiaomi.cn/t-13198850. It's in Chinese so you might need a translator to read it.
-2. To control the devices, put gateway's MAC address (lower case without colon) and password to ~/.homebridge/config.json.
+2. To control the devices, put gateway's MAC address (lower case without colon) and password (upper or lower case, depending on what your MiJia app shows) to ~/.homebridge/config.json.
+
+> If you use lower-case password, you may meet issues when try to switch on and off the ZigBee Pulg.
 
 
         {
@@ -32,11 +34,11 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
             {
                 "platform": "AqaraPlatform",
                 "sid": ["6409802da3b3"],
-                "password": ["02i44k56zrgg578b"]
+                "password": ["02I44K56ZRGG578B"]
             }]
         }
 
- If you have more than one gateways, fill them in right order, like below.
+If you have more than one gateways, fill them in right order, like below.
 
 
         {
@@ -44,16 +46,17 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
             {
                 "platform": "AqaraPlatform",
                 "sid": ["6409802da3b3", "f0b4299a5b2b", "f0b4299a77dd"],
-                "password": ["02i44k56zrgg578b", "g250s2vtne8q9qhv", "syu3oasva3uqd5qd"]
+                "password": ["02I44K56ZRGG578B", "G250S2VTNE8Q9QHV", "SYU3OASVA3UQD5QD"]
             }]
         }
 
- If gateway's password is not set or not set right, you will see the following error in homebridge's output.
+If gateway's password is not set or not set right, you will see the following error in homebridge's output.
 
+```
+ No password for gateway f0b429cbe4d3, please edit ~/.homebridge/config.json
+```
 
-        > No password for gateway f0b429cbe4d3, please edit ~/.homebridge/config.json
-
- If you like to use Light Bulb type for Light Switch to make grandma Siri happy, like me, you can set the following in the config.
+If you like to use Light Bulb type for Light Switch to make grandma Siri happy, like me, you can set the following in the config.
 
 
         {
@@ -66,7 +69,7 @@ Aqara is a ZigBee gateway with a few sensors. Please see the pictures below.
             }]
         }
         
- If you prefer to see sensor names instead of hex digis as name, add a mapping table to your config.json
+If you prefer to see sensor names instead of hex digis as name, add a mapping table to your config.json
  
         {
             "platforms": [
